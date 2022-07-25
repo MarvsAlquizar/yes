@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+        padding: 0;
+    font-family: sans-serif;
+
+    }
+
+    header {
+        height: 100px;
+        background-color: rgb(104, 54, 54);
+        width: 100%;
+        position: fixed;
+        z-index: 12;
+    }
+    
+    
+    
+    
+    .logo {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        font-weight: bold;
+        padding: 50px;
+        margin-left: 50px;
+    }
+     .logo a{
+        color: blueviolet;
+        text-decoration: underline;
+     }
+    
+     .logo a :hover{
+        color:#918391
+     }
+    
+     .nav_bar {
+         font-family:'Times New Roman';
+         font-size: 20px;
+         float: right;
+         list-style: None;
+        
+     }
+    
+     .nav_bar li {
+        display: inline-block
+     }
+     .nav_bar li a {
+        padding: 15px;
+     }
+    
+     .nav_bar li a:hover {
+    background: #918391;
+    color: blueviolet;
+    border: 1px solid violet;
+    border-radius: 5px;
+    border-width: auto;
+     }
+
+
+
+    body {
+background: url('./bbb.jpg') no-repeat;
+background-size: cover;
+
+    }
+
+
+
+    
+
+    .login-form {
+ width: 300px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ color: navy;
+ background-color: grey;
+ 
+
+    }
+
+    .login-form h1 {
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+color: blue;
+
+    }
+    .login-form p {
+font-size: 20px;
+margin: 15px 0;
+color: blue;
+
+    }
+
+    .login-form input {
+        font-size: 16px;
+        width: 90%;
+        padding: 15px 10px;
+border: 0;
+outline: none;
+border-radius: 1px;
+    }
+
+    .login-form button {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 1px;
+    border: 0;
+
+}
+
